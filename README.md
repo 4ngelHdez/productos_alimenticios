@@ -1,16 +1,16 @@
-Análisis del Comportamiento del Usuario en una Aplicación de Productos Alimenticios
+# Análisis del Comportamiento del Usuario en una Aplicación de Productos Alimenticios
 
-Descripción del Proyecto<br>
+### Descripción del Proyecto<br>
 
 En este proyecto, me enfoqué en el análisis del comportamiento del usuario dentro de una aplicación móvil de una empresa emergente de productos alimenticios. El objetivo principal fue investigar cómo interactúan los usuarios con la aplicación durante un período específico, identificar patrones de uso y evaluar la efectividad de las diferentes etapas del embudo de eventos mediante una prueba A/A/B.
 
-Objetivos:<br>
+### Objetivos:<br>
 
    * Estudiar y validar la integridad de los datos de la aplicación.<br>
    * Analizar el embudo de eventos para comprender el flujo de los usuarios a través de la aplicación.<br> 
    * Estudiar los resultados de un experimento (A/A/B testing) para identificar posibles diferencias significativas entre los grupos.<br>
 
-Metodología:<br>
+### Metodología:<br>
 
 Utilicé Python y librerías como pandas, numpy, seaborn, plotly, scipy y statsmodels para realizar un análisis exploratorio y evaluar la validez de la prueba A/A/B. El trabajo incluyó:<br>
     
@@ -21,7 +21,7 @@ Utilicé Python y librerías como pandas, numpy, seaborn, plotly, scipy y statsm
    * Realización de pruebas estadísticas de proporciones y la prueba de Mann-Whitney U para comparar los grupos del experimento (246, 247 y 248) y determinar si existían diferencias significativas entre ellos.<br>
 
 
-Conclusiones:<br>
+### Conclusiones:<br>
 
    - Se identificó que el evento más frecuente es "MainScreenAppear" (pantalla principal), seguido por "OffersScreenAppear" (pantalla de ofertas), "CartScreenAppear" (carrito de compras) y "PaymentScreenSuccessful" (pago exitoso). El "Tutorial" es el evento menos frecuente.<br>
 
@@ -36,7 +36,7 @@ Conclusiones:<br>
    - A pesar de los ajustes en el umbral y la corrección de alpha con el método Sidak, las pruebas estadísticas (prueba de proporciones Z y Mann-Whitney U) indicaron diferencias significativas entre los grupos del experimento (246, 247 y 248). Esto sugiere que las muestras de los grupos no fueron tomadas correctamente o que existe una diferencia inherente en el comportamiento de los usuarios en estos grupos.<br> 
 
 
-Lenguajes y herramientas principales:<br>
+### Lenguajes y herramientas principales:<br>
 
    * Python (pandas, numpy, seaborn, matplotlib, plotly express, scipy).<br>
    * Jupyter Notebook para documentación del análisis.<br>
